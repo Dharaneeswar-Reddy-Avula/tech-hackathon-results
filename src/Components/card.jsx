@@ -206,7 +206,7 @@ export const Card = () => {
   
 
   return (
-    <div className='flex flex-wrap justify-center xl:justify-between gap-[20px] p-[10px] md:p-[20px]'>
+    <div className='flex flex-wrap justify-center xl:justify-between gap-[20px]  md:p-[20px]'>
       {data.map((item, index) => (
 
         <div

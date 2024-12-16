@@ -26,7 +26,9 @@ export const Hero = () => {
 
         <SwiperSlide className="bg-[white] flex justify-center items-center">
          <img src={mess} className="w-full h-[400px] object-cover" alt="Background Image" />
-         {/* <h1>"Hygienic food is not a privilege, it's a right - demand it, monitor it, ensure it!"</h1> */}
+
+         <h1 className=" text-white md:w-[500px] absolute z-10 md:bottom-[10px] md:right-[20px] transform bottom-[20px]   text-[20px] text-center font-bold text-2xl leading-none">
+         "Hygienic food is not a privilege, it's a right - demand it, monitor it, ensure it!"</h1> 
         </SwiperSlide>
       </Swiper>
     </>
