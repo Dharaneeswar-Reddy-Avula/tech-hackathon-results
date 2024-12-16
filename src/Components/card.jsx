@@ -227,7 +227,7 @@ export const Card = () => {
             ))}
           </ul>
           <div className="scores w-[250px] md:p-[10px]">
-          <ul className='list-none flex flex-col gap-[5px] items-end'>
+          <ul className='list-none flex flex-col gap-[5px] md:items-end'>
             <li className='p-1  font-bold  rounded-lg'>Round 1: {item.scores['round-1']}</li>
             <li className='p-1  font-bold  rounded-lg'>Round 2: {item.scores['round-2']}</li>
             <li className='p-1  font-bold  rounded-lg'>Round 3: {item.scores['round-3']}</li></ul>
