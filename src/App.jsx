@@ -8,7 +8,7 @@ export const App = () => {
    
       <div className='main_bg w-full relative'>
         <Navbar />
-        <Winners />
+        <Winners className="p-[10px]"/>
         <Footer className='fixed left-[-20px]'/>
       </div>
    

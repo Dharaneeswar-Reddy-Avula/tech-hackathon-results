@@ -223,11 +223,11 @@ export const Card = () => {
           <div className='flex justify-between flex-wrap gap-[20px]'>
           <ul className='list-none mt-[10px]'>
             {item.students.map((student, i) => (
-              <li key={i} className='flex'>Student : <h1 className='font-bold px-[10px]'>{student}</h1></li>
+              <li key={i} className='flex'>Student {i+1} : <h1 className='font-bold px-[10px]'>{student}</h1></li>
             ))}
           </ul>
           <div className="scores w-[250px] md:p-[10px]">
-          <ul className='list-none flex flex-col gap-[5px]'>
+          <ul className='list-none flex flex-col gap-[5px] items-end'>
             <li className='p-1  font-bold  rounded-lg'>Round 1: {item.scores['round-1']}</li>
             <li className='p-1  font-bold  rounded-lg'>Round 2: {item.scores['round-2']}</li>
             <li className='p-1  font-bold  rounded-lg'>Round 3: {item.scores['round-3']}</li></ul>
