@@ -1,6 +1,6 @@
 import './App.css'
 import { Navbar } from './Components/Navbar';
-import { Winners } from './Components/WInners';
+import { Winners } from './Components/Winners';
 import { Footer } from './Components/Footer';
 
 export const App = () => {
