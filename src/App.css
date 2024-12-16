@@ -1,3 +1,44 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.winners{
+    /* background-image: url('./assets/card-bag.jpg'); */
+    background-color: black;
+    background-size: cover;
+    width:100%;
+   
+   
+}
+.navbar{
+    background-image: url('https://techfest.org/static/media/navImg3.bda93bb54e3b2c256c593c7b74242e9b.svg');
+    background-color: black;
+    background-size: cover;
+    width:100%;
+    color:white;
+    background-position-x :50%;
+background-position-y :100%;
+background-repeat: no-repeat;
+background-size :cover;
+box-sizing :border-box;
+
+
+}
+@media(max-width:767px){
+    .navbar{
+        background-position-x :100%;
+        background-position-y :100%;
+    }
+}
+.footer{
+
+    background-image: url('https://techfest.org/static/media/navImg3.bda93bb54e3b2c256c593c7b74242e9b.svg');
+    background-color: black;
+    background-size: cover;
+    width:100%;
+    color:white;
+    background-position-x :50%;
+background-position-y :100%;
+background-repeat: no-repeat;
+background-size :cover;
+box-sizing :border-box;
+}
