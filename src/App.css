@@ -25,7 +25,7 @@ box-sizing :border-box;
 }
 @media(max-width:767px){
     .navbar{
-        background-position-x :100%;
+        background-position-x :0%;
         background-position-y :100%;
     }
 }
